@@ -1,0 +1,32 @@
+.button-back {
+    border: 1px solid yellow;
+    padding: 8px 40px;
+    background-color: transparent;
+    border-radius: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button-back:hover {
+    background-color: whitesmoke;
+    border-color: transparent;
+}
+
+.button-back:disabled {
+    border-color: lightgray;
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+.button-skill {
+    background-color: transparent;
+    border: 1px solid teal;
+    padding: 8px 40px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.button-skill:hover {
+    background-color: teal;
+    color: #ffffff;
+}
